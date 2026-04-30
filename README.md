@@ -15,7 +15,7 @@ This project implements a secure end-to-end encrypted messaging protocol inspire
 This project combines multiple technologies:
 
 - **Toit** → client logic (send/receive/update)
-- **Python** → server (message storage & routing)
+- **Python** → server
 - **C (DLL)** → cryptographic operations (via libsodium)
 
 
