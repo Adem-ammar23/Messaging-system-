@@ -1,0 +1,17 @@
+LIBRARY crypto
+EXPORTS
+  crypto_test32
+  sodium_init_wrapper
+  random_bytes
+  ed25519_keypair
+  x25519_keypair
+  ed25519_sign
+  ed25519_verify
+  x25519_dh
+  x3dh_derive_alice
+  x3dh_derive_bob
+  hash32
+  aead_encrypt
+  aead_decrypt
+  pwhash_argon2id_32
+
