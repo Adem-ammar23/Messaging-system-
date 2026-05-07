@@ -563,7 +563,7 @@ def post_bundle(user):
 
     store = load_store()
 
-    # ---- Milestone 4: require proof for updates ----
+    
     exists = user in store.get("users", {}) and "bundle" in store["users"][user]
     if exists:
         if user not in AUTH_OK:
